@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Restaurante Los Flavours</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4e9d8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d4a373;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header img {
+            width: 120px;
+        }
+
+        nav {
+            background-color: #b07d62;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px;
+            background-color: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #f9e6d0;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            border: 1px solid #b07d62;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        button {
+            display: block;
+            background-color: #b07d62;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px auto 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #8d674d;
+        }
+
+        footer {
+            background-color: #d4a373;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+        }
+
+        iframe {
+            display: block;
+            margin: 30px auto;
+            border: 2px solid #b07d62;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="imagenes/logo.png.png" alt="Logo de Restaurante Los Flavours">
+        <h1>Restaurante Los Flavours</h1>
+        <p>Sabores auténticos con alma paisa en Medellín</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <h2>Contáctanos</h2>
+        <p style="text-align:center;">Si tienes alguna duda, sugerencia o deseas hacer una reserva, ¡escríbenos!</p>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="tuemail@ejemplo.com" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Ej: 3101234567">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+
+        <iframe 
+            src="https://www.google.com/maps?q=Carrera%2045%20%2310-50,%20Medell%C3%ADn,%20Colombia&output=embed"
+            width="600" height="400" loading="lazy" title="Ubicación de Restaurante Los Flavours en Medellín">
+        </iframe>
+    </main>
+
+    <footer>
+        &copy; 2025 Restaurante Los Flavours | Carrera 45 #10-50, Medellín | Tel: +57 604 444 5566
+    </footer>
+
+</body>
+</html>
